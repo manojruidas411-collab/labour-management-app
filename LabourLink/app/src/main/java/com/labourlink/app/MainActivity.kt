@@ -22,6 +22,7 @@ class MainActivity : ComponentActivity() {
   }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun LabourLinkScreen() {
   val auth = remember { FirebaseAuth.getInstance() }
